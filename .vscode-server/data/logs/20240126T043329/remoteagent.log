@@ -1,0 +1,28 @@
+2024-01-26 04:33:29.429 [info] 
+
+
+
+
+2024-01-26 04:33:29.429 [info] Extension host agent started.
+2024-01-26 04:33:29.447 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-01-26 04:33:29.462 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-01-26 04:33:29.540 [info] [127.0.0.1][8859df36][ManagementConnection] New connection established.
+2024-01-26 04:33:29.547 [info] [127.0.0.1][941c84dc][ExtensionHostConnection] New connection established.
+2024-01-26 04:33:29.709 [info] [127.0.0.1][941c84dc][ExtensionHostConnection] <3600> Launched Extension Host Process.
+2024-01-26 04:38:29.392 [info] New EH opened, aborting shutdown
+2024-01-26 04:57:55.552 [info] [127.0.0.1][8859df36][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-26 04:57:55.554 [error] Error: Throttler is disposed
+    at c.queue (/home/ec2-user/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /home/ec2-user/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /home/ec2-user/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-01-26 04:58:00.568 [info] [127.0.0.1][941c84dc][ExtensionHostConnection] <3600> Extension Host Process exited with code: 0, signal: null.
+2024-01-26 04:58:00.568 [info] Last EH closed, waiting before shutting down
+2024-01-26 04:58:10.704 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-26 04:58:10.704 [info] Cancelling previous shutdown timeout
+2024-01-26 04:58:10.852 [info] [127.0.0.1][c7c6900c][ManagementConnection] New connection established.
+2024-01-26 04:58:10.924 [info] [127.0.0.1][42b6064b][ExtensionHostConnection] New connection established.
+2024-01-26 04:58:10.932 [info] [127.0.0.1][42b6064b][ExtensionHostConnection] <4610> Launched Extension Host Process.
+2024-01-26 05:03:10.705 [info] New EH opened, aborting shutdown
